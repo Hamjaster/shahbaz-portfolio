@@ -106,19 +106,20 @@ export default function LandingPage() {
                 {/* Text        */}
                 <div className="text relative z-40  my-auto font-[Inter] flex items-center justify-center flex-col">
 
-                    <div className="head w-full sm:w-2/3 lg:w-full flex flex-wrap space-y-6 min-[310px]:space-y-0 lg:space-x-6 lg:flex-nowrap flex-row justify-start sm:justify-center items-center ml-8 sm:-ml-8 md:ml-0  h-52 font-[700] md:text-8xl">
+                    <div className="head w-full sm:w-10/12 lg:w-full flex flex-wrap space-y-3 min-[310px]:space-y-0 lg:space-x-6 lg:flex-nowrap flex-row justify-start sm:justify-center items-center ml-8 sm:-ml-8 md:ml-0  h-52 font-[700] md:text-8xl">
 
-                        <span className='block md:inline text-[5rem] min-[535px]:text-8xl'>
+                        <span className='block md:inline text-[4rem] min-[535px]:text-8xl'>
                             <AnimateChar delay={i} text={hy} />
                         </span>
-                        <span className='block md:inline  text-[5rem]  min-[535px]:text-8xl'>
+                        <span className='block md:inline  text-[4rem]  min-[535px]:text-8xl'>
                             <AnimateChar delay={i + 0.7} text={I} />
                         </span>
-                        <span className='block md:inline text-[4.3rem] min-[535px]:text-[5.2rem] mt-2 sm:mt-0 mb-5 sm:mb-0 sm:text-[5.7rem]'>
+
+                        <span className='block md:inline text-[4rem] min-[535px]:text-[5.2rem] mt-2 sm:mt-0 mb-2 sm:mb-0 sm:text-[5.7rem]'>
                             <AnimateChar delay={i + 0.7} text={hamza} />
                         </span>
 
-                        <motion.span className='text-6xl hidden  sm:text-7xl ml-2 items-center min-[310px]:flex' initial={{ opacity: 0 }}
+                        <motion.span className='text-6xl hidden sm:text-7xl ml-2 items-center min-[310px]:flex' initial={{ opacity: 0 }}
                             animate={{
                                 rotate: [null, 15, -15, 15, 0],
                                 opacity: 1,

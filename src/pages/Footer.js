@@ -8,9 +8,9 @@ export default function Footer() {
 
             <hr class="h-px w-11/12 mx-auto my-8 bg-gray-300 border-0 dark:bg-gray-700" />
             <div className={`text-lg sm:text-xl text-${theme}-600 flex flex-row w-full`}>
-                <span className='w-2/4 sm:w-1/4 text-center text-gray-500'>© 2023 Hamza Shah</span>
+                <span className='w-2/4 sm:w-1/4 text-center text-gray-500'>© 2023 Shahbaz Mehtab</span>
                 <div className="svg w-2/4 text-center flex items-center justify-center">
-                    <svg width={50} version="1.0" xmlns="http://www.w3.org/2000/svg"
+                    {/* <svg width={50} version="1.0" xmlns="http://www.w3.org/2000/svg"
                         // width="421.000000pt" height="484.000000pt" 
                         viewBox="0 0 421.000000 484.000000"
                         preserveAspectRatio="xMidYMid meet">
@@ -34,7 +34,7 @@ export default function Footer() {
                         -554 13 -546 6 5 61 47 121 94 60 46 152 117 205 157 53 40 109 85 125 100 57
                         53 56 47 56 604 0 282 -4 518 -8 524 -4 8 -20 -5 -42 -34z"/>
                         </g>
-                    </svg>
+                    </svg> */}
                 </div>
             </div>
 
